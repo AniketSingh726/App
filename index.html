@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Skill Academy</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script defer src="script.js"></script>
+    <style>
+        body {
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+            background-image: linear-gradient(rgb(250, 133, 0),rgb(247, 244, 244),rgb(52, 253, 2));
+            background-repeat: no-repeat;
+        }
+        #logo{
+            height: 50px;
+            width: 50px;
+            border-radius: 15px;
+        }
+        header {
+            background-image:url(ccc.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        #home{
+            background-color: #f58402;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        .course-list {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .course {
+            background: rgb(10, 190, 214);
+            color: #111111;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            height: 100px;
+            width: 110px;
+
+        }
+        section .h2{
+            background-color: aqua;
+        }
+        button {
+            background: #089103;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background: #df1e05;
+        }
+          /* Footer */
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #333;
+      color: #fff;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><img id="logo" src="logo.jpg" alt="logo">Computer Skill Academy</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html"><i class="fa-solid fa-house"></i> Home</a></li>
+                <li><a href="courses.html"><i class="fa-regular fa-rectangle-list"></i> Courses</a></li>
+                <li><a href="loginpage.html"><i class="fa-solid fa-right-to-bracket"></i> Login</a></li>
+                <a href="Notification.html"><i class="fa-solid fa-bell" style="color: #FFD43B;"></i></a>
+            </ul>
+        </nav>
+    </header>    
+    <section id="home">
+        <h2>Welcome to Computer Skill Academy</h2>
+        <p>Enhance your Skills with our interactive Free courses.</p>
+    </section>
+    
+    <section id="courses">
+        <h2>Our Free Courses</h2>
+        <div class="course-list">
+            <div class="course">
+                <h3>CCC</h3>
+                <a href="CCC.HTML"><button><i class="fa-solid fa-display"></i> Enroll Now</button></a>
+            </div>
+            <div class="course">
+                <h3>DCA</h3>
+                <a href="DCA.HTML"><button><i class="fa-solid fa-display"></i> Enroll Now</button></a>
+            </div>
+        </div><br><br>
+        <div class="course-list">
+          <div class="course">
+              <h3>ADCA</h3>
+              <a href="ADCA.HTML"><button><i class="fa-solid fa-display"></i> Enroll Now</button></a>
+          </div>
+          <div class="course">
+              <h3>PGDCA</h3>
+              <a href="not.html"><button><i class="fa-solid fa-display"></i> Enroll Now</button></a>
+          </div>
+      </div><br><br>
+      <div class="course-list">
+        <div class="course">
+            <h3>DTP</h3>
+            <a href="not.html"><button><i class="fa-solid fa-display"></i> Enroll Now</button></a>
+        </div>
+        <div class="course">
+            <h3>TALLY</h3>
+            <a href="TALLY.HTML"><button><i class="fa-solid fa-display"></i> Enroll Now</button></a>
+        </div>
+    </div><br><br>
+        <div class="course-list">
+          <div class="course">
+              <h3>O-LEVEL</h3>
+              <a href="Olevel.html"><button><i class="fa-solid fa-display"></i> Enroll Now</button></a>
+          </div>
+          <div class="course">
+              <h3>EDITING</h3>
+              <a href="not.html"><button><i class="fa-solid fa-display"></i> Enroll Now</button></a>
+          </div>
+      </div><br><br>
+      <h2>Explore More</h2>
+      <div class="course-list">
+        <div class="course">
+            <h3>TESTS</h3>
+            <a href="test.html"><button><i class="fa-solid fa-computer"></i> Start</button></a>
+        </div>
+        <div class="course">
+            <h3>NOTES</h3>
+            <a href="not.html"><button><i class="fa-solid fa-eye"></i> View</button></a>
+        </div>
+    </div><br><br>
+    <div class="course-list">
+      <div class="course">
+          <h3>SHORTCUT KEY</h3>
+          <a href="shortcut.html"><button><i class="fa-solid fa-eye"></i> View</button></a>
+      </div>
+      <div class="course">
+          <h3>Contect Us</h3>
+          <a href="contectus.html"><button><i class="fa-solid fa-phone"></i> Contect</button></a>
+      </div>
+    </section>
+ <!-- Footer -->
+ <footer>
+    &copy; 2025 Computer Skill Academy. All Rights Reserved.<br>
+    <p>Developed By : Aniket Singh</p>
+  </footer>
+</body>
+</html>
